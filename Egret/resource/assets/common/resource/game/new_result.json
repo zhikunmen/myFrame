@@ -1,0 +1,245 @@
+{
+  "file": "new_result.png",
+  "frames": {
+    "exit": {
+      "x": 0,
+      "y": 1598,
+      "w": 84,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 84,
+      "sourceH": 53
+    },
+    "lose_line": {
+      "x": 562,
+      "y": 953,
+      "w": 183,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 183,
+      "sourceH": 1
+    },
+    "result_bg": {
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 1280,
+      "sourceH": 720
+    },
+    "result_fan": {
+      "x": 484,
+      "y": 1120,
+      "w": 35,
+      "h": 35,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 35,
+      "sourceH": 35
+    },
+    "result_fangpao": {
+      "x": 0,
+      "y": 1287,
+      "w": 158,
+      "h": 158,
+      "offX": 17,
+      "offY": 15,
+      "sourceW": 188,
+      "sourceH": 187
+    },
+    "result_info": {
+      "x": 0,
+      "y": 1446,
+      "w": 222,
+      "h": 77,
+      "offX": 0,
+      "offY": 5,
+      "sourceW": 222,
+      "sourceH": 82
+    },
+    "result_info_press": {
+      "x": 159,
+      "y": 1365,
+      "w": 210,
+      "h": 73,
+      "offX": 6,
+      "offY": 7,
+      "sourceW": 222,
+      "sourceH": 82
+    },
+    "result_loseBg": {
+      "x": 1281,
+      "y": 0,
+      "w": 286,
+      "h": 575,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 288,
+      "sourceH": 575
+    },
+    "result_losepop": {
+      "x": 849,
+      "y": 783,
+      "w": 33,
+      "h": 104,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 34,
+      "sourceH": 105
+    },
+    "result_start": {
+      "x": 562,
+      "y": 822,
+      "w": 222,
+      "h": 82,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 222,
+      "sourceH": 82
+    },
+    "result_start_press": {
+      "x": 286,
+      "y": 1183,
+      "w": 210,
+      "h": 78,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 222,
+      "sourceH": 82
+    },
+    "result_title": {
+      "x": 562,
+      "y": 905,
+      "w": 200,
+      "h": 47,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 200,
+      "sourceH": 47
+    },
+    "result_win": {
+      "x": 849,
+      "y": 721,
+      "w": 108,
+      "h": 61,
+      "offX": 10,
+      "offY": 0,
+      "sourceW": 127,
+      "sourceH": 61
+    },
+    "result_winBg": {
+      "x": 1568,
+      "y": 0,
+      "w": 285,
+      "h": 575,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 288,
+      "sourceH": 575
+    },
+    "result_winpop": {
+      "x": 785,
+      "y": 822,
+      "w": 34,
+      "h": 105,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 34,
+      "sourceH": 105
+    },
+    "result_zimo": {
+      "x": 286,
+      "y": 721,
+      "w": 275,
+      "h": 246,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 275,
+      "sourceH": 246
+    },
+    "total_again1": {
+      "x": 484,
+      "y": 968,
+      "w": 221,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 222,
+      "sourceH": 77
+    },
+    "total_again2": {
+      "x": 0,
+      "y": 1524,
+      "w": 210,
+      "h": 73,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 222,
+      "sourceH": 77
+    },
+    "total_contentbg": {
+      "x": 0,
+      "y": 721,
+      "w": 285,
+      "h": 565,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 285,
+      "sourceH": 565
+    },
+    "total_share1": {
+      "x": 159,
+      "y": 1287,
+      "w": 222,
+      "h": 77,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 222,
+      "sourceH": 77
+    },
+    "total_share2": {
+      "x": 484,
+      "y": 1046,
+      "w": 210,
+      "h": 73,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 222,
+      "sourceH": 77
+    },
+    "total_title": {
+      "x": 562,
+      "y": 721,
+      "w": 286,
+      "h": 100,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 286,
+      "sourceH": 102
+    },
+    "total_winner": {
+      "x": 286,
+      "y": 968,
+      "w": 197,
+      "h": 214,
+      "offX": 16,
+      "offY": 25,
+      "sourceW": 221,
+      "sourceH": 244
+    },
+    "win_line": {
+      "x": 562,
+      "y": 955,
+      "w": 183,
+      "h": 1,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 183,
+      "sourceH": 1
+    }
+  }
+}

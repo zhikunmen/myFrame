@@ -1,0 +1,7 @@
+dea
+bin-debug/
+libs/
+.DS_Store
+bin-release/
+.idea
+egretProperties.json

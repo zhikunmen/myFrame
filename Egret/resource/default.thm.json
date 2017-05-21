@@ -1,0 +1,22 @@
+{
+  "skins": {
+    "eui.VSlider": "resource/eui_skins/VSliderSkin.exml"
+  },
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/eui_skins/ButtonPanel.exml",
+    "resource/eui_skins/ClockPanel.exml",
+    "resource/eui_skins/GameMainPanel.exml",
+    "resource/eui_skins/GameOverItemSkin.exml",
+    "resource/eui_skins/GameOverItemSubSkin.exml",
+    "resource/eui_skins/GameOverSkin.exml",
+    "resource/eui_skins/Help.exml",
+    "resource/eui_skins/JiaofenPanel.exml",
+    "resource/eui_skins/MingPaiPanel.exml",
+    "resource/eui_skins/RoleInfoPanel.exml",
+    "resource/eui_skins/RoundResultItem.exml",
+    "resource/eui_skins/RoundResultSkin.exml",
+    "resource/eui_skins/Set.exml",
+    "resource/eui_skins/VSliderSkin.exml"
+  ]
+}

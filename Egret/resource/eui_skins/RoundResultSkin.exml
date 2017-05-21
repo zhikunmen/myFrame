@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResultSkin" height="533" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="537">
+	<e:Group width="500" height="350" bottom="68" touchEnabled="false" touchChildren="true" horizontalCenter="0">
+		<e:Image id="_out_frame_bg" scale9Grid="23,16,34,35" width="500" height="350" horizontalCenter="0" verticalCenter="0" touchEnabled="false" x="0" y="0" scaleX="1" scaleY="1" source="role_frame_1_png"/>
+		<e:Image id="_in_frame_bg" scale9Grid="9,10,12,11" width="470" height="302" horizontalCenter="0" verticalCenter="0" touchEnabled="false" x="15" y="24" scaleX="1" scaleY="1" source="role_frame_3_png"/>
+		<e:Image width="240" height="50" y="-48" scaleX="1" scaleY="1" horizontalCenter="0" touchEnabled="false" x="130" source="bg_tiaoti_2_png"/>
+		<e:Image id="_victory__guang_image" x="248.3" y="-28.78" height="340" width="360" anchorOffsetX="180" anchorOffsetY="170" rotation="0" scaleX="0.8" scaleY="0.8" source="pdk_win_guang_png"/>
+		<e:Image id="_victory_image" y="-116" scaleX="0.8" scaleY="0.8" horizontalCenter="0" touchEnabled="false" x="109" source="label_win_png"/>
+		<e:Image id="_failed_image" y="-116" scaleX="0.8" scaleY="0.8" horizontalCenter="0" source="label_lose_png" visible="false"/>
+		<e:Scroller width="463" height="278" x="19" y="25" touchEnabled="false" touchChildren="false" scaleX="1" scaleY="1" anchorOffsetX="0" anchorOffsetY="0">
+			<e:List id="_data_list" y="59" x="-14" itemRendererSkinName="RoundResultItemSkin">
+				<e:layout>
+					<e:VerticalLayout gap="0" paddingLeft="11"/>
+				</e:layout>
+				<e:ArrayCollection>
+					<e:Array>
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null"/>
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null"/>
+						<e:Object iconUrl="null" nickName="null" scoreChanged="null"/>
+					</e:Array>
+				</e:ArrayCollection>
+			</e:List>
+		</e:Scroller>
+		<e:Button id="_prepare_btn" label="" x="134" y="303" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_ready_1_png" source.down="btn_ready_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

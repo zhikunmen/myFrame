@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverItemSubSkin" width="228" height="49" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="_round_num" text="第9局：" textColor="0xe09c08" fontFamily="Microsoft YaHei" left="25" verticalCenter="0" size="26"/>
+	<e:Label id="_point" text="+10" textColor="0xE09C08" fontFamily="Microsoft YaHei" right="21" verticalCenter="0" size="26"/>
+</e:Skin>

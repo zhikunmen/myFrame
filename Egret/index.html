@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Egret</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <!--version_start-->
+    <meta name="res-version" content="" />
+    <meta name="thm-version" content="" />
+    <!--version_end-->
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件。删除 modules_files 标签后，库文件加载列表将不会变化，请谨慎操作！-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.js" src-release="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.js" src-release="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.js" src-release="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.js" src-release="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.js" src-release="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.js" src-release="libs/modules/tween/tween.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.js" src-release="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/uniLib/uniLib.js" src-release="libs/modules/uniLib/uniLib.min.js"></script>
+	<script egret="lib" src="libs/modules/dragonBones/dragonBones.js" src-release="libs/modules/dragonBones/dragonBones.min.js"></script>
+	<script egret="lib" src="pureMvc/bin/pureMvc/pureMvc.js" src-release="pureMvc/bin/pureMvc/pureMvc.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件。删除 game_files 标签后，项目文件加载列表将不会变化，请谨慎操作！-->
+    <!--game_files_start-->
+	<script egret="game" src="bin-debug/com/zqb/component/BaseVc.js"></script>
+	<script egret="game" src="bin-debug/table/TableRoomCostConfig.js"></script>
+	<script egret="game" src="bin-debug/table/PokerTableCard.js"></script>
+	<script egret="game" src="bin-debug/table/TableGift.js"></script>
+	<script egret="game" src="bin-debug/table/TableGoodsConfig.js"></script>
+	<script egret="game" src="bin-debug/table/gameList.js"></script>
+	<script egret="game" src="bin-debug/table/TableServerReturnCode.js"></script>
+	<script egret="game" src="bin-debug/table/TableShopConfig.js"></script>
+	<script egret="game" src="bin-debug/table/TableVoice.js"></script>
+	<script egret="game" src="bin-debug/table/TablePlayTypeList.js"></script>
+	<script egret="game" src="bin-debug/table/TableMahjongMulti.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/BaseEui.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/CardInfo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/MyUserInfo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/RoomInfo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/CardMJ.js"></script>
+	<script egret="game" src="bin-debug/Table.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/UserSideCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/BasePanel.js"></script>
+	<script egret="game" src="bin-debug/common/poker.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/SeatPlayer.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/Image.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/ActionEffectMc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/BlurBackCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/MildAlertVC.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/CardStack.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/ChowCardsPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/DiscardBlurMc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/GroupCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/MingPaiNode.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/MsgBox.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/ResUtil.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/ToggleBtn.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/ToggleButton.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/consts/NetConsts.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/consts/PlatConsts.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/consts/PokerFourFacadeConst.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/consts/SoundConsts.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/consts/UIEventConsts.js"></script>
+	<script egret="game" src="bin-debug/AssetAdapter.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/CardUtils.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/MySelfCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/OutPutBackCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/OutPutCard.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/OutPutCards.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/DataCache.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/UserSideCard0.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/UserSideCard1.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/UserSideCard2.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/cards/UserSideCard3.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/CheckMc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/DismissPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/face/ChatItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/face/FaceItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/face/RecordItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/face/RoomFacePanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/gameHelpPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/GameSysMsg.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/GiftAnItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/HeadMc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/LoadSecondPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/NumBitmapFormat.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/PublicLoadingView.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/ResultPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/RoomGmTool.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/GameInfo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/SettingPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/StartEffectMc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/StopServicePanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/TJLoadingUI.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/TotalRecordPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/compenent/UserInfoPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/DataRequestCommand.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/GameData.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/GameMainPanelMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/PokerFourFacede.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/RemoveCommand.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/ServerPKProxy.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/SocketDataCommand.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/StartupPKCommand.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/vo/CardVo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/vo/KongVo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/vo/OperatVo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/vo/UserVo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/model/vo/VoiceDataVo.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/PKGameScene.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/ActionEffectMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/CardMJMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/CountMJMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/DDZPokerMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/OperateMJMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/SeatPlayerMJMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/mediator/VoiceChatMediator.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/CardsVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/CountVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/GameOverItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/GameOverItemSub.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/GameOverPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/GameVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/HelpPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/LotteryVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/OperateVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/RoundResultItem.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/RoundResultSkin.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/SeatPlayVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/SelectCardsVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/SetPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/ShowHandCardVc.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/TestPanel.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/view/vc/VoiceChat.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/net/HeadLoader.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/net/RepManager.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/net/SoundLoader.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/AlignBitmapText.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/ArrayUtil.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/GameUtil.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/PopupManager.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/PublicManage.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/ResUtil.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/utils/SoundManager.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/component/GameButton.js"></script>
+	<script egret="game" src="bin-debug/com/zqb/mj/coreDate/PositionData.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/ButtonPanel.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/ClockPanel.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/GameMainPanel.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/JiaofenPanel.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/MingPaiPanel.js"></script>
+	<script egret="game" src="bin-debug/ddz/view/eui/RoleInfoPanel.js"></script>
+	<script egret="game" src="bin-debug/Main.js"></script>
+	<script egret="game" src="bin-debug/table/TableCard.js"></script>
+	<script egret="game" src="bin-debug/ThemeAdapter.js"></script>
+	<!--game_files_end-->
+</head>
+
+<body>
+
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="1280" data-content-height="720" data-show-paint-rect="false" data-multi-fingered="1"
+        data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+    <script>
+        /**
+         * {
+         * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+         * "audioType": "" //使用的音频类型，0:默认，1:qq audio，2:web audio，3:audio
+         * }
+         **/
+        ;
+        egret.runEgret({
+            renderMode: "canvas",
+            audioType: 0
+        });
+    </script>
+</body>
+
+</html>

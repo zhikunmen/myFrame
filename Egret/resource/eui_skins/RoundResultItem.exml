@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoundResultItemSkin" width="435" height="91" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_bg_image" width="420" height="86" scale9Grid="17,13,67,68" anchorOffsetY="0" scaleX="1" scaleY="1" x="9" y="8" source="role_frame_3_png"/>
+	<e:Image id="_bg_image1" width="420" height="86" scale9Grid="17,13,67,68" anchorOffsetY="0" scaleX="1" scaleY="1" x="8" y="8" source="role_frame_4_png"/>
+	<e:Image id="_player_icon" width="95" height="95" x="21" y="12" scaleX="0.7" scaleY="0.7" source=""/>
+	<e:Image id="_player_icon_frame" width="114" height="114" x="14" y="10" scaleX="0.7" scaleY="0.7" source="bg_role_1_png"/>
+	<e:Label id="_player_name" text="aaaaaa" x="104" textColor="0x210303" size="26" fontFamily="Microsoft YaHei" textAlign="center" maxChars="5" y="39"/>
+	<e:Label id="_changed_score" text="+10" textColor="0x210303" size="26" fontFamily="Microsoft YaHei" textAlign="center" maxChars="5" y="39" right="45"/>
+	<e:Image id="_is_keng" x="53.9" y="-8.75" source="icon_dizhu_png"/>
+</e:Skin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverItemSkin" width="280" height="427" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="18" y="11" scale9Grid="35,29,45,30" anchorOffsetX="0" width="246" anchorOffsetY="0" height="402" source="role_frame_3_png"/>
+	<e:Image id="_player_icon_frame" x="23" y="29" anchorOffsetX="0" width="90" anchorOffsetY="0" height="91" source="role_frame_1_png"/>
+	<e:Image id="_head_img" x="30" y="34" anchorOffsetX="0" width="74" anchorOffsetY="0" height="71" source=""/>
+	<e:Label id="_nike_name" text="昵称" x="124" y="35" textColor="0x070000" fontFamily="Microsoft YaHei" size="26"/>
+	<e:Label id="_uid" text="2565" x="124" y="75" textColor="0x070000" fontFamily="Microsoft YaHei" size="20"/>
+	<e:Label id="_total_text" text="总成绩：+2563" x="54" y="379" fontFamily="Microsoft YaHei" textColor="0xed0909" size="22"/>
+	<e:Image x="25" y="130" scale9Grid="14,11,13,15" anchorOffsetX="0" width="232" anchorOffsetY="0" height="244" source="bg_neikuang_3_png"/>
+	<e:Scroller width="225" height="233" x="29" y="137" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off" scrollPolicyV="on">
+		<e:List id="_sub_list" itemRendererSkinName="GameOverItemSubSkin" anchorOffsetX="0" width="231" anchorOffsetY="0" height="232">
+
+			<e:layout>
+				<e:VerticalLayout gap="-19" paddingTop="-6"/>
+			</e:layout>
+			<e:ArrayCollection>
+				<e:Array>
+					<e:Object/>
+					<e:Object/>
+					<e:Object/>
+				</e:Array>
+			</e:ArrayCollection>
+		</e:List>
+	</e:Scroller>
+	<e:Image id="_isWinner" source="label_winner_png" x="0" y="-3"/>
+	<e:Image id="_fangzhu" source="icon_fangzhu_png" x="18" y="75" visible="false"/>
+</e:Skin>

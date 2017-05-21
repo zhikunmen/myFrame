@@ -1,0 +1,305 @@
+{
+  "file": "chat.png",
+  "frames": {
+    "chat_btn1": {
+      "x": 0,
+      "y": 666,
+      "w": 230,
+      "h": 57,
+      "offX": 1,
+      "offY": 1,
+      "sourceW": 231,
+      "sourceH": 60
+    },
+    "chat_btn2": {
+      "x": 0,
+      "y": 544,
+      "w": 237,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 60
+    },
+    "chat_map": {
+      "x": 0,
+      "y": 0,
+      "w": 935,
+      "h": 543,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 935,
+      "sourceH": 543
+    },
+    "chat_pop": {
+      "x": 238,
+      "y": 658,
+      "w": 67,
+      "h": 53,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 67,
+      "sourceH": 53
+    },
+    "chat_record": {
+      "x": 122,
+      "y": 782,
+      "w": 68,
+      "h": 43,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 68,
+      "sourceH": 43
+    },
+    "chat_select": {
+      "x": 0,
+      "y": 833,
+      "w": 312,
+      "h": 41,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 312,
+      "sourceH": 41
+    },
+    "face1": {
+      "x": 346,
+      "y": 778,
+      "w": 107,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face2": {
+      "x": 460,
+      "y": 657,
+      "w": 120,
+      "h": 99,
+      "offX": 0,
+      "offY": 11,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face3": {
+      "x": 787,
+      "y": 544,
+      "w": 104,
+      "h": 112,
+      "offX": 10,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face4": {
+      "x": 456,
+      "y": 757,
+      "w": 108,
+      "h": 109,
+      "offX": 6,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face5": {
+      "x": 224,
+      "y": 875,
+      "w": 111,
+      "h": 108,
+      "offX": 4,
+      "offY": 9,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face6": {
+      "x": 0,
+      "y": 875,
+      "w": 111,
+      "h": 115,
+      "offX": 4,
+      "offY": 4,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face7": {
+      "x": 454,
+      "y": 867,
+      "w": 105,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face8": {
+      "x": 238,
+      "y": 544,
+      "w": 115,
+      "h": 113,
+      "offX": 3,
+      "offY": 4,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face9": {
+      "x": 354,
+      "y": 544,
+      "w": 105,
+      "h": 121,
+      "offX": 8,
+      "offY": 0,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face10": {
+      "x": 581,
+      "y": 657,
+      "w": 105,
+      "h": 111,
+      "offX": 8,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face11": {
+      "x": 892,
+      "y": 544,
+      "w": 97,
+      "h": 99,
+      "offX": 12,
+      "offY": 11,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face12": {
+      "x": 0,
+      "y": 724,
+      "w": 121,
+      "h": 108,
+      "offX": 1,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face13": {
+      "x": 346,
+      "y": 666,
+      "w": 109,
+      "h": 111,
+      "offX": 6,
+      "offY": 5,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face14": {
+      "x": 571,
+      "y": 544,
+      "w": 107,
+      "h": 112,
+      "offX": 6,
+      "offY": 2,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face15": {
+      "x": 112,
+      "y": 875,
+      "w": 111,
+      "h": 113,
+      "offX": 4,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face16": {
+      "x": 460,
+      "y": 544,
+      "w": 110,
+      "h": 112,
+      "offX": 4,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face17": {
+      "x": 679,
+      "y": 544,
+      "w": 107,
+      "h": 110,
+      "offX": 7,
+      "offY": 7,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face18": {
+      "x": 336,
+      "y": 890,
+      "w": 106,
+      "h": 111,
+      "offX": 9,
+      "offY": 8,
+      "sourceW": 122,
+      "sourceH": 121
+    },
+    "face_select": {
+      "x": 687,
+      "y": 657,
+      "w": 111,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 102
+    },
+    "faceBg": {
+      "x": 565,
+      "y": 769,
+      "w": 111,
+      "h": 102,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 111,
+      "sourceH": 102
+    },
+    "record_btn1": {
+      "x": 122,
+      "y": 724,
+      "w": 223,
+      "h": 57,
+      "offX": 0,
+      "offY": 1,
+      "sourceW": 224,
+      "sourceH": 60
+    },
+    "record_btn2": {
+      "x": 0,
+      "y": 605,
+      "w": 237,
+      "h": 60,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 237,
+      "sourceH": 60
+    },
+    "send_btn1": {
+      "x": 677,
+      "y": 769,
+      "w": 161,
+      "h": 62,
+      "offX": 4,
+      "offY": 2,
+      "sourceW": 169,
+      "sourceH": 66
+    },
+    "send_btn2": {
+      "x": 560,
+      "y": 872,
+      "w": 169,
+      "h": 66,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 169,
+      "sourceH": 66
+    }
+  }
+}

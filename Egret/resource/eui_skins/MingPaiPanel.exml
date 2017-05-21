@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MingPaiPanel" width="235" height="135" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="230" height="138" x="-1" y="1" source="role_frame_1_png" scale9Grid="25,18,32,29"/>
+	<e:Image width="205" height="110" x="11.5" y="9" scaleX="1" scaleY="1" source="bg_neikuang_2_png" scale9Grid="5,5,30,30"/>
+</e:Skin>

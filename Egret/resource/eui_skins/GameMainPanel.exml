@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameMainPanel" height="720" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1280">
+	<w:Config id="15bccfd0ad2"/>
+	<e:Image width="1280" height="489" x="0" y="0" source="bg_floor_png" locked="true"/>
+	<e:Image width="1280" height="720" x="0" y="0" source="bg_png" locked="true"/>
+	<e:Image width="1280" x="0.01" y="-0.01" source="mingpai3_jpg" locked="true" visible="false"/>
+	<e:Group width="200" height="200" horizontalCenter="-40" top="2">
+		<e:Image width="433" height="98" x="-76.5" y="-2.55" scaleX="1" scaleY="1" source="bg_biaoti_png"/>
+		<e:Image width="176" height="71" x="50" y="2" scaleX="1" scaleY="1" source="bg_neikuang_2_png" scale9Grid="5,5,30,30"/>
+		<e:Label text="帮助" x="-29.18" y="57.7" size="22"/>
+		<e:Label text="设置" x="266" y="55" size="22" scaleX="1" scaleY="1"/>
+		<e:Label id="_labelDifen" text="低分：4分" x="2" y="90" size="24" scaleX="1" scaleY="1" anchorOffsetY="1"/>
+		<e:Label id="_labelBeishu" text="倍数：2" x="169" y="89" size="24" scaleX="1" scaleY="1" anchorOffsetY="1"/>
+		<e:Label text="底牌" x="109" y="24.5" size="30" scaleX="1" scaleY="1"/>
+		<e:Button id="_helpButton" label="" x="-34.18" y="2" scaleX="1" scaleY="1" width="54" enabled="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_help_png" source.down="btn_help_png" source.disabled="btn_help_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="_setButton" label="" x="260.82" y="2" scaleX="1" scaleY="1" width="54" enabled="true">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_set_png" source.down="btn_set_png" source.disabled="btn_set_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+	<e:Group width="200" height="200" left="-1" top="-1" locked="true">
+		<e:Image width="176" height="59" x="3" y="6" scaleX="1" scaleY="1" source="bg_neikuang_2_png" scale9Grid="5,5,30,30"/>
+		<e:Label id="roomId" text="房间号111111" x="15" y="13" anchorOffsetX="0" anchorOffsetY="1" size="22"/>
+		<e:Label id="duijuNum" text="对局数" x="15" y="39" anchorOffsetX="0" anchorOffsetY="1" size="22" width="206" height="35"/>
+	</e:Group>
+	<e:Group width="200" height="200" horizontalCenter="-48" bottom="9">
+		<e:Image width="1280" height="52" x="-497.34" y="153.67" source="bg_tiaoti_2_png" scale9Grid="44,6,62,39"/>
+		<e:Image width="205" height="35" x="-261.01" y="163" scaleX="1" scaleY="1" source="bg_neikuang_1_png" scale9Grid="12,12,12,12"/>
+		<e:Image width="205" height="35" x="10.99" y="164.34" scaleX="1" scaleY="1" source="bg_neikuang_1_png" scale9Grid="12,12,12,12"/>
+		<e:Label text="昵称：" x="-322" y="171" scaleX="1" scaleY="1" size="22"/>
+		<e:Label text="积分：" x="-49.99" y="171.67" scaleX="1" scaleY="1" size="22"/>
+		<e:Label id="userPoints" text="2332323" x="24.67" y="173" scaleX="1" scaleY="1" size="22" anchorOffsetY="1"/>
+		<e:Label id="userName" text="我是挖坑高手啊" x="-246.67" y="172.33" scaleX="1" scaleY="1" size="22" anchorOffsetY="1"/>
+		<e:Image width="114" height="114" source="bg_role_1_png" bottom="-7" left="-453" x="-454" y="94" scaleX="1" scaleY="1"/>
+		<e:Image id="_userIcon" width="88" height="88" x="-440.33" y="102" scaleX="1" scaleY="1"/>
+		<e:Image id="iconSelfFangzhu" source="icon_fangzhu_png" x="-470.00000000000006" y="162" scaleX="1" scaleY="1"/>
+		<e:Image id="iconSefdizhu" source="icon_dizhu_png" x="-388.00000000000006" y="72.61000000000001" scaleX="1" scaleY="1"/>
+	</e:Group>
+	<e:Image source="role_frame_1_png" x="345.5" y="244.5"/>
+</e:Skin>

@@ -1,0 +1,195 @@
+{
+  "file": "userInfo.png",
+  "frames": {
+    "surebtn1": {
+      "x": 110,
+      "y": 267,
+      "w": 144,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 49
+    },
+    "surebtn2": {
+      "x": 247,
+      "y": 149,
+      "w": 144,
+      "h": 49,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 144,
+      "sourceH": 49
+    },
+    "tipsBg": {
+      "x": 0,
+      "y": 208,
+      "w": 800,
+      "h": 58,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 800,
+      "sourceH": 58
+    },
+    "userInfo_chip": {
+      "x": 255,
+      "y": 267,
+      "w": 25,
+      "h": 25,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 25,
+      "sourceH": 25
+    },
+    "userInfo_chipbg": {
+      "x": 357,
+      "y": 128,
+      "w": 7,
+      "h": 19,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 7,
+      "sourceH": 19
+    },
+    "userInfo_contentbg": {
+      "x": 0,
+      "y": 0,
+      "w": 246,
+      "h": 207,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 246,
+      "sourceH": 207
+    },
+    "userInfo_female": {
+      "x": 415,
+      "y": 128,
+      "w": 18,
+      "h": 28,
+      "offX": 2,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 28
+    },
+    "userInfo_gift1": {
+      "x": 483,
+      "y": 0,
+      "w": 76,
+      "h": 80,
+      "offX": 1,
+      "offY": 14,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift2": {
+      "x": 0,
+      "y": 416,
+      "w": 77,
+      "h": 82,
+      "offX": 0,
+      "offY": 12,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift3": {
+      "x": 188,
+      "y": 317,
+      "w": 73,
+      "h": 80,
+      "offX": 2,
+      "offY": 12,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift4": {
+      "x": 560,
+      "y": 0,
+      "w": 64,
+      "h": 80,
+      "offX": 7,
+      "offY": 14,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift5": {
+      "x": 483,
+      "y": 81,
+      "w": 58,
+      "h": 84,
+      "offX": 4,
+      "offY": 0,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift6": {
+      "x": 78,
+      "y": 416,
+      "w": 77,
+      "h": 77,
+      "offX": 0,
+      "offY": 17,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift7": {
+      "x": 110,
+      "y": 317,
+      "w": 77,
+      "h": 79,
+      "offX": 0,
+      "offY": 15,
+      "sourceW": 77,
+      "sourceH": 94
+    },
+    "userInfo_gift_bg1": {
+      "x": 247,
+      "y": 0,
+      "w": 109,
+      "h": 148,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 148
+    },
+    "userInfo_gift_bg2": {
+      "x": 0,
+      "y": 267,
+      "w": 109,
+      "h": 148,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 109,
+      "sourceH": 148
+    },
+    "userInfo_headbg": {
+      "x": 357,
+      "y": 0,
+      "w": 125,
+      "h": 127,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 125,
+      "sourceH": 127
+    },
+    "userInfo_line": {
+      "x": 247,
+      "y": 199,
+      "w": 482,
+      "h": 2,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 482,
+      "sourceH": 2
+    },
+    "userInfo_male": {
+      "x": 392,
+      "y": 128,
+      "w": 22,
+      "h": 24,
+      "offX": 0,
+      "offY": 0,
+      "sourceW": 22,
+      "sourceH": 24
+    }
+  }
+}

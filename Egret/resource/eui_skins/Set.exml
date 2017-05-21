@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SetSkin" height="521" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="620">
+	<e:Group width="609" height="516" verticalCenter="-1.5" left="4" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image scale9Grid="23,16,34,35" width="600" height="447" anchorOffsetY="0" horizontalCenter="0.5" verticalCenter="30.5" source="role_frame_1_png"/>
+		<e:Image y="16" scale9Grid="63,0,31,45" width="300" height="50" horizontalCenter="0.5" source="bg_tiaoti_2_png"/>
+		<e:Image width="560" height="413" y="70" scale9Grid="17,13,67,68" horizontalCenter="-0.5" anchorOffsetY="0" source="role_frame_3_png"/>
+		<e:Image id="_set_image" y="3" horizontalCenter="0.5" source="label_set_png"/>
+		<e:Button id="_close_btn" label="" x="557" y="42" scaleX="0.8" scaleY="0.8">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_exit_1_png" source.down="btn_exit_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Panel id="_set_music_panel" width="540" height="90" y="112" horizontalCenter="0.5">
+			<e:Image id="_music_btn_bg" x="232" y="12" scale9Grid="10,10,20,21" width="200" height="65" source="bg_neikuang_3_png"/>
+			<e:Label id="_music_label" text="音乐：" x="116" y="28" textColor="0x210303" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label id="_music_off_label" text="关" x="370" y="23" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Label id="_music_on_label" text="开" x="263" y="22" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Button id="_music_on_btn" label="" x="227" y="11" scaleX="0.8" scaleY="0.8" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_open_1_png" source.down="btn_open_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="_music_off_btn" label="" x="333" y="11" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_close_1_png" source.down="btn_close_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Panel>
+		<e:Panel id="_effect_panel" width="540" height="90" y="203" horizontalCenter="0.5">
+			<e:Image id="_effect_btn_bg" x="232" y="12" scale9Grid="10,10,20,21" width="200" height="65" scaleX="1" scaleY="1" source="bg_neikuang_3_png"/>
+			<e:Label id="_effect_label" text="音效：" x="116" y="28" textColor="0x210303" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label id="_effect_on_label" text="开" x="263" y="22" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Label id="_effect_off_label" text="关" x="370" y="24" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Button id="_effect_on_btn" label="" x="227" y="11" scaleX="0.8" scaleY="0.8" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_open_1_png" source.down="btn_open_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="_effect_off_btn" label="" x="333" y="11" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_close_1_png" source.down="btn_close_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Panel>
+		<e:Panel id="_voice_panel" width="540" height="90" y="295" horizontalCenter="0.5">
+			<e:Image id="_voice_btn_bg" x="232" y="11" scale9Grid="10,10,20,21" width="200" height="65" scaleX="1" scaleY="1" source="bg_neikuang_3_png"/>
+			<e:Label id="_voice_label" text="语音：" x="116" y="28" textColor="0x210303" fontFamily="Microsoft YaHei" scaleX="1" scaleY="1"/>
+			<e:Label id="_voice_on_label" text="开" x="263" y="22" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Label id="_voice_off_label" text="关" x="370" y="24" size="40" fontFamily="Microsoft YaHei" textColor="0x484848" scaleX="0.8" scaleY="0.8" bold="true"/>
+			<e:Button id="_voice_on_btn" label="" x="227" y="11" scaleX="0.8" scaleY="0.8" visible="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_open_1_png" source.down="btn_open_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="_voice_off_btn" label="" x="333" y="11" scaleX="0.8" scaleY="0.8">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_close_1_png" source.down="btn_close_2_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+		</e:Panel>
+		<e:Button id="_dismiss_room_btn" label="" y="397" scaleX="0.8" scaleY="0.8" horizontalCenter="-0.5">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_dissolve_1_png" source.down="btn_dissolve_2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>
